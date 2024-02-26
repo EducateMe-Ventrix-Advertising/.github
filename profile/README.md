@@ -145,18 +145,34 @@ Command to set: `cd C:\repositories`.
 
 ## Install Docker Development Environment
 1. Open Docker.
-2. In Windows Explorer, navigate to C:\repositories\Docker\scripts
-3. Run installLocalhost.bat – This script will also clone repositories.
-4. After running, a command prompt window will open and prompt for permissions for local root CA.
+2. In Windows Explorer, navigate to `C:\repositories\Docker\scripts`
+3. Run `installLocalhost.bat` – This script will also clone repositories.
+4. After running, a command prompt window will open and prompt for permissions for local root CA.  
 Follow prompt to grant permissions.
-5. When prompted to choose a location for secrets.sh, place file at: C:\repositories\docker\secrets.sh
+5. When prompted to choose a location for `secrets.sh`, place file at: `C:\repositories\docker\secrets.sh`
 6. Press any key to continue.
 7. When prompted for the database dump, press any key to continue. Databases will be imported later.
-8. Wait for installation to finish. The last step, composer install, will take a long time to run.
-9. After installation is finished, navigate to C:\repositories and rename non-Docker repositories to lowercase.  
+8. Wait for installation to finish. The last step, `composer install`, will take a long time to run.
+9. After installation is finished, navigate to `C:\repositories` and rename non-Docker repositories to lowercase.  
 Example: `C:\repositories\CEI` should be `C:\repositories\cei`
-10. Run updateLocalhost.bat.
+10. Run `updateLocalhost.bat`.
 
+
+## Export Production Databases
+> [!WARNING]
+> It is EXTREMELY important that you take extra precautions when interacting with and downloading databases from production. ALWAYS create a backup whenever you are performing ANY operation within the database.  
+NEVER drop databases or tables for any reason and be cognizant about which tables you export, as some of them are extremely large.
+
+1. If you do not have permissions to access PHPMyAdmin, contact a team member for assistance. Otherwise continue.
+2. Log in to PHPMyAdmin on production. This assumes you already have the link.
+3. Select the database you wish to export.
+5. Click “Export”
+5. Under Export Method, select the “Custom” option.
+6. Find the Request and Error tables in the Tables list and uncheck the right-most checkbox. We will export these tables with Structure only. Do this for all databases.
+7. Scroll down to Object creation options and toggle:  
+`Add DROP TABLE / VIEW / PROCEDURE / FUNCTION / EVENT / TRIGGER statement`
+8. Click “Export”.
+9. If saving a file, save file to C:\repositories\Docker\databases
 
 
 
