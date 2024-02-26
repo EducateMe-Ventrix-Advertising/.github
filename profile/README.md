@@ -48,7 +48,8 @@ https://www.microsoft.com/store/productId/9PN20MSR04DW?ocid=pdpshare
 1. Navigate to https://gitforwindows.org/
 2. Click “Download”
 3. Run Installer and follow prompts.
-4. Upon completion of installation, open Command Line or PowerShell.
+4. Restart computer.
+5. Upon completion of installation, open Command Line or PowerShell.
 6. Enter command `git version` to verify that GIT installed correctly.
 
 
