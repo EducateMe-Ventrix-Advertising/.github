@@ -72,6 +72,25 @@ https://www.microsoft.com/store/productId/9PN20MSR04DW?ocid=pdpshare
 13. Paste the contents of `id_rsa.pub` into the Key field.
 14. Click “Add SSH key”.
 
+
+## Purchasing PhpStorm
+1. PhpStorm may be purchased from the JetBrains website. It is required to use the paid version of PhpStorm, as the free version lacks essential features which are critical to our pipeline.
+
+**Product overview**: https://www.jetbrains.com/phpstorm/
+**Pricing page**: https://www.jetbrains.com/phpstorm/buy/#personal
+2. On the Pricing page, select “For Individual Use”, then select either “Yearly billing” or “Monthly billing”. It is recommended that you select “Yearly billing,” as this is the most cost-effective choice.
+3. On the eStore Identification page, enter the email address to attach licenses. This will also be the email address used to authenticate your license within the application. Use an email address you have access to and access often.
+
+
+## Installing PhpStorm
+1. Download the installer from your Licenses page or using this link:
+https://www.jetbrains.com/phpstorm/download/#section=windows
+2. Run the installer and follow wizard steps.
+3. Create file associations as needed. It is recommended that you set associations for .php, .js, .css, and .html files, as this is your primary IDE at Ventrix.
+4. Complete installation
+5. Open PhpStorm and navigate to File -> Settings.
+6. Select “Appearance & Behavior”, then select “New UI,” and uncheck “Enable new UI” if enabled.
+
 <!--
 
 **Here are some ideas to get you started:**
