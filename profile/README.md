@@ -5,27 +5,27 @@
 > This document assumes the developer is on a Windows desktop machine, version 10 or newer, and is not applicable to Mac or Linux users.
 
 ### Contents
-Enable Virtualization in BIOS
-Install Windows Subsystem for Linux (WSL)
-Git Installation
-Creating SSH Key
-Purchasing PhpStorm
-Installing PhpStorm
-Activating PhpStorm
-Configure PhpStorm Project
-Connecting PhpStorm to VCS
-Pulling PhpStorm Settings from VCS 
-Installing Docker
-Clone Docker Repository
-Configure Docker Development Environment
-Export Production Databases
-Import Databases into Docker
-Access PHPMyAdmin from localhost
-Configuring PhpStorm Scopes
-Using PhpStorm Scopes
-Making File Changes in PhpStorm
-Committing and Pushing Files
-Requirements for interacting with Git
+1. Enable Virtualization in BIOS
+2. Install Windows Subsystem for Linux (WSL)
+3. Git Installation
+4. Creating SSH Key
+5. Purchasing PhpStorm
+6. Installing PhpStorm
+7. Activating PhpStorm
+8. Configure PhpStorm Project
+9. Connecting PhpStorm to VCS
+10. Pulling PhpStorm Settings from VCS 
+11. Installing Docker
+12. Clone Docker Repository
+13. Configure Docker Development Environment
+14. Export Production Databases
+15. Import Databases into Docker
+16. Access PHPMyAdmin from localhost
+17. Configuring PhpStorm Scopes
+18. Using PhpStorm Scopes
+19. Making File Changes in PhpStorm
+20. Committing and Pushing Files
+21. Requirements for interacting with Git
 
 
 CURRENTLY UPDATING
