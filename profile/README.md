@@ -28,7 +28,7 @@
 21. Requirements for interacting with Git
 
 
-THESE DOCS ARE NOT COMPLETE YET I AM MOVING THEM OVER FROM WORD
+# THESE DOCS ARE NOT COMPLETE YET I AM MOVING THEM OVER FROM WORD
 <!--
 
 **Here are some ideas to get you started:**
