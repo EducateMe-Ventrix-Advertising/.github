@@ -75,7 +75,6 @@ https://www.microsoft.com/store/productId/9PN20MSR04DW?ocid=pdpshare
 
 ## Purchasing PhpStorm
 1. PhpStorm may be purchased from the JetBrains website. It is required to use the paid version of PhpStorm, as the free version lacks essential features which are critical to our pipeline.
-
 **Product overview**: https://www.jetbrains.com/phpstorm/
 **Pricing page**: https://www.jetbrains.com/phpstorm/buy/#personal
 2. On the Pricing page, select “For Individual Use”, then select either “Yearly billing” or “Monthly billing”. It is recommended that you select “Yearly billing,” as this is the most cost-effective choice.
