@@ -56,8 +56,7 @@ https://www.microsoft.com/store/productId/9PN20MSR04DW?ocid=pdpshare
 ## Creating SSH Key
 1. Open Command Line (cmd) or Git Bash.
 2. Input the following line, replacing the email address within quotations with your GitHub email address:
-`ssh-keygen -t ed25519 -C “your_email@example.com”`
-
+```ssh-keygen -t ed25519 -C “your_email@example.com”```
 *Example*: `ssh-keygen -t ed25519 -C “developer@ventrixadvertising.com”`
 
 3. When prompted to “Enter a file in which to save the key”, press Enter to accept the default file location.
