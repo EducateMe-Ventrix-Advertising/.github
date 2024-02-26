@@ -85,7 +85,7 @@ https://www.microsoft.com/store/productId/9PN20MSR04DW?ocid=pdpshare
 1. Download the installer from your Licenses page or using this link:
 https://www.jetbrains.com/phpstorm/download/#section=windows
 2. Run the installer and follow wizard steps.
-3. Create file associations as needed. It is recommended that you set associations for .php, .js, .css, and .html files, as this is your primary IDE at Ventrix.
+3. Create file associations as needed. It is recommended that you set associations for `.php`, `.js`, `.css`, and `.html` files, as this is your primary IDE at Ventrix.
 4. Complete installation
 5. Open PhpStorm and navigate to File -> Settings.
 6. Select “Appearance & Behavior”, then select “New UI,” and uncheck “Enable new UI” if enabled.
