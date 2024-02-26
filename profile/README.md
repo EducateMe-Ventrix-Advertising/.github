@@ -101,6 +101,34 @@ https://www.jetbrains.com/phpstorm/download/#section=windows
 6. Click “Create”
 
 
+## Configure PhpStorm VCS
+1. Open PhpStorm settings.
+2. Select Version Control.
+3. Select “GitHub”.
+4. Click the “+” icon and select “Login via Github”.
+5. Follow prompts in web browser to log into GitHub and authorize JetBrains.
+6. You may close browser/tab when finished.
+7. Click “OK”.
+
+
+## Pulling PhpStorm Settings from VCS
+1. Open File -> Manage IDE Settings -> Settings Sync…
+2. Click “Enable Settings Sync…”
+3. Check all settings.
+4. Click “OK”.
+6. You should see UI refresh. If not, restart PhpStorm. If you do not notice any changes, contact a team member for assistance.
+
+
+## Installing Docker
+1. Download Docker for Windows from https://www.docker.com/products/docker-desktop/
+2. Run installer and follow prompts.
+3. After installation completes, open Command Prompt (CMD) or PowerShell to verify that Docker and WSL are running:
+`docker ps`
+`wsl -l -v`
+
+
+
+
 <!--
 
 **Here are some ideas to get you started:**
