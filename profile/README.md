@@ -90,6 +90,17 @@ https://www.jetbrains.com/phpstorm/download/#section=windows
 5. Open PhpStorm and navigate to File -> Settings.
 6. Select “Appearance & Behavior”, then select “New UI,” and uncheck “Enable new UI” if enabled.
 
+
+## Create PhpStorm Project
+1. Open PhpStorm
+2. Go to File -> New Project
+3. Select PHP Empty Project
+4. Set Location to C:\repositories
+> [!IMPORTANT]
+> It is important to set the file location to C:\repositories, as our development environment requires that location to be set. Ensure that “repositories” is lowercase.
+6. Click “Create”
+
+
 <!--
 
 **Here are some ideas to get you started:**
