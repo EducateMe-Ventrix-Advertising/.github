@@ -41,14 +41,14 @@ Virtualization in BIOS needs to be enabled for our development environment to fu
 2. Search for “Ubuntu WSL” by Canonical Group Limited:
 https://www.microsoft.com/store/productId/9PN20MSR04DW?ocid=pdpshare
 3. Click “Install” and follow prompts.
-4. Ensure that WSL is running by opening up command prompt and entering command: `wsl -l -v`
+4. Restart computer.
+5. Ensure that WSL is running by opening up command prompt and entering command: `wsl -l -v`
 
 
 ## GIT Installation
 1. Navigate to https://gitforwindows.org/
 2. Click “Download”
 3. Run Installer and follow prompts.
-4. Restart computer.
 5. Upon completion of installation, open Command Line or PowerShell.
 6. Enter command `git version` to verify that GIT installed correctly.
 
