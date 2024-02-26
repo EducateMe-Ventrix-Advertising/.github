@@ -172,7 +172,26 @@ NEVER drop databases or tables for any reason and be cognizant about which table
 7. Scroll down to Object creation options and toggle:  
 `Add DROP TABLE / VIEW / PROCEDURE / FUNCTION / EVENT / TRIGGER statement`
 8. Click “Export”.
-9. If saving a file, save file to C:\repositories\Docker\databases
+9. If saving a file, save file to `C:\repositories\Docker\databases`
+
+
+## Import Databases into Docker
+> [!WARNING]
+> Only utilize these instructions if you need to fully install or reinstall databases into Docker. This script will remove or overwrite existing databases.
+
+1. Ensure that SQL files exist in `C:\repositories\Docker\databases` and their file names match their respective repositories. See [Export Production Databases](#export-production-databases) for information on how to export databases.
+2. Run importDatabases.bat from `C:\repositories\Docker\scripts`.
+3. Wait for batch script to finish.
+
+
+## Access PHPMyAdmin from localhost
+1. Ensure that Docker is running and that `dev_container` is running.
+2. Ensure that the database volume exists.
+3. Navigate to https://localhost/phpmyadmin.
+4. Log in with your production credentials.
+5. Use PHPMyAdmin as you would on production.
+> [!NOTE]
+> Changes on local host will NOT reflect on production, even after pushing code changes to the server from PhpStorm.
 
 
 
