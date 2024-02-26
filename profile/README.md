@@ -1,8 +1,8 @@
 # Ventrix Advertising
 ### Development Environment Setup
 
-[!NOTE]
-This document assumes the developer is on a Windows desktop machine, version 10 or newer, and is not applicable to Mac or Linux users.
+> [!NOTE]
+> This document assumes the developer is on a Windows desktop machine, version 10 or newer, and is not applicable to Mac or Linux users.
 
 ### Contents
 Enable Virtualization in BIOS
