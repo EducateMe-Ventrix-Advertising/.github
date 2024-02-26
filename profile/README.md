@@ -28,10 +28,7 @@ Committing and Pushing Files
 Requirements for interacting with Git
 
 
-## Enable Virtualization in BIOS
-Virtualization in BIOS needs to be enabled for our development environment to function. This is a key step as you will not be able to run local version of our websites without it. There are too many motherboards and BIOS configurations for us to cover in this documentation, so we can only provide you with one step:
-
-1. Refer to your motherboard’s documentation to enable virtualization.
+CURRENTLY UPDATING
 <!--
 
 **Here are some ideas to get you started:**
