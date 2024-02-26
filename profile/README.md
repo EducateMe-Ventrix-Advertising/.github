@@ -123,7 +123,9 @@ https://www.jetbrains.com/phpstorm/download/#section=windows
 1. Download Docker for Windows from https://www.docker.com/products/docker-desktop/
 2. Run installer and follow prompts.
 3. After installation completes, open Command Prompt (CMD) or PowerShell to verify that Docker and WSL are running:
+
 `docker ps`
+
 `wsl -l -v`
 
 
