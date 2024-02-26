@@ -5,10 +5,10 @@
 > This document assumes the developer is on a Windows desktop machine, version 10 or newer, and is not applicable to Mac or Linux users.
 
 ### Contents
-1. Enable Virtualization in BIOS
-2. Install Windows Subsystem for Linux (WSL)
-3. Git Installation
-4. Creating SSH Key
+1. [Enable Virtualization in BIOS](#enable-virtualization-in-bios)
+2. [Install Windows Subsystem for Linux (WSL)](#install-windows-subsystem-for-linux-wsl)
+3. [Git Installation](#git-installation)
+4. [Creating SSH Key](#creating-ssh-key)
 5. Purchasing PhpStorm
 6. Installing PhpStorm
 7. Activating PhpStorm
