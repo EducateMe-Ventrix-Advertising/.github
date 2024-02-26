@@ -122,11 +122,42 @@ https://www.jetbrains.com/phpstorm/download/#section=windows
 ## Installing Docker
 1. Download Docker for Windows from https://www.docker.com/products/docker-desktop/
 2. Run installer and follow prompts.
-3. After installation completes, open Command Prompt (CMD) or PowerShell to verify that Docker and WSL are running:
-
-`docker ps`
-
+3. After installation completes, open Command Prompt (CMD) or PowerShell to verify that Docker and WSL are running:  
+`docker ps`  
 `wsl -l -v`
+
+
+## Clone Docker Repository
+> [!IMPORTANT]
+> This step requires that you have [configured your PhpStorm VCS](#configure-phpstorm-vcs).
+
+1. Using a web browser, navigate to repository https://github.com/EducateMe-Ventrix-Advertising/Docker
+2. Copy SSH address.
+3. Open PhpStorm.
+4. Ensure that the PhpStorm project is set to `C:\repositories`.
+5. Open a Terminal window in PhpStorm.
+6. Ensure that the current directory is set to `C:\repositories`.  
+Command to set: `cd C:\repositories`.
+7. Enter command: `git clone replaceMeWithSSHAddress`
+8. Run command.
+9. Verify that the Docker folder exists in the Project panel.
+
+
+## Install Docker Development Environment
+1. Open Docker.
+2. In Windows Explorer, navigate to C:\repositories\Docker\scripts
+3. Run installLocalhost.bat – This script will also clone repositories.
+4. After running, a command prompt window will open and prompt for permissions for local root CA.
+Follow prompt to grant permissions.
+5. When prompted to choose a location for secrets.sh, place file at: C:\repositories\docker\secrets.sh
+6. Press any key to continue.
+7. When prompted for the database dump, press any key to continue. Databases will be imported later.
+8. Wait for installation to finish. The last step, composer install, will take a long time to run.
+9. After installation is finished, navigate to C:\repositories and rename non-Docker repositories to lowercase.  
+Example: `C:\repositories\CEI` should be `C:\repositories\cei`
+10. Run updateLocalhost.bat.
+
+
 
 
 
