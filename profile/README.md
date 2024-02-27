@@ -194,6 +194,30 @@ NEVER drop databases or tables for any reason and be cognizant about which table
 > Changes on local host will NOT reflect on production, even after pushing code changes to the server from PhpStorm.
 
 
+## Configuring PhpStorm Scopes
+Scopes are a valuable tool which allows you to search more efficiently within our repositories. They are typically the preferred option when searching within the entire project.
+
+1. Contact a team member to get the most up to date scopes.
+2. Open PhpStorm settings.
+3. Navigate to Appearance & Behavior -> Scopes.
+4. In the left panel, select the “**+**” icon to create a new scope.
+5. Select “Local”.
+6. Name the scope.
+7. Select the scope from the scopes list.
+8. Copy and paste the desired scope value into the Pattern field.
+9. Click “OK.”
+
+
+## Using PhpStorm Scopes
+1. Open a Project search dialog box by entering shortcut Ctrl+Shift+F.
+2. Select “Scope” from the search options.
+3. Select desired scope from the scopes drop-down menu.
+4. Type desired search into search input.
+> [!NOTE]
+> Please note that PhpStorm may not default the search to using Scopes. You may need to reselect that option when opening PhpStorm.
+
+
+
 
 
 
