@@ -38,12 +38,14 @@ Virtualization in BIOS needs to be enabled for our development environment to fu
      - **ASUS**  :  
           - **AMD**    : [\[Notebook\] How to enable or disable AMD Virtualization (AMD-V™) technology?](https://www.asus.com/support/FAQ/1043992)
           - **Intel**  : [\[Motherboard\] How to enable Intel(VMX) Virtualization Technology in the BIOS?](https://www.asus.com/support/FAQ/1043786)  
-                                   [\[Notebook\] How to enable or disable Intel® Virtualization Technology (VT-x)?](https://www.asus.com/support/FAQ/1043181)
+                           [\[Notebook\] How to enable or disable Intel® Virtualization Technology (VT-x)?](https://www.asus.com/support/FAQ/1043181)
      - **Dell**  : [How To Enable or Disable Hardware Virtualization on Dell Systems | Dell US](https://www.dell.com/support/kbdoc/000195978/)
      - **HP**    : [HP PCs - Enable Virtualization Technology in the BIOS](https://support.hp.com/us-en/document/ish_5637142-5637191-16)
      - **Lenovo**: [How to enable Virtualization Technology on Lenovo PC computers - Lenovo Support US](https://support.lenovo.com/solutions/ht500006)
   
 [^1]: [Enable Virtualization on Windows 11 PCs](https://support.microsoft.com/en-us/windows/enable-virtualization-on-windows-11-pcs-c5578302-6e43-4b4b-a449-8ced115f58e1)
+
+[Top](#contents)
 
 
 ## Install Windows Subsystem for Linux (WSL)
@@ -54,6 +56,8 @@ https://www.microsoft.com/store/productId/9PN20MSR04DW?ocid=pdpshare
 4. Restart computer.
 5. Ensure that WSL is running by opening up command prompt and entering command: `wsl -l -v`
 
+[Top](#contents)
+
 
 ## GIT Installation
 1. Navigate to https://gitforwindows.org/
@@ -61,6 +65,8 @@ https://www.microsoft.com/store/productId/9PN20MSR04DW?ocid=pdpshare
 3. Run Installer and follow prompts.
 5. Upon completion of installation, open Command Line or PowerShell.
 6. Enter command `git version` to verify that GIT installed correctly.
+
+[Top](#contents)
 
 
 ## Creating SSH Key
@@ -82,6 +88,8 @@ https://www.microsoft.com/store/productId/9PN20MSR04DW?ocid=pdpshare
 13. Paste the contents of `id_rsa.pub` into the Key field.
 14. Click “Add SSH key”.
 
+[Top](#contents)
+
 
 ## Purchasing PhpStorm
 1. PhpStorm may be purchased from the JetBrains website. It is required to use the paid version of PhpStorm, as the free version lacks essential features which are critical to our pipeline.
@@ -89,6 +97,8 @@ https://www.microsoft.com/store/productId/9PN20MSR04DW?ocid=pdpshare
 **Pricing page**: https://www.jetbrains.com/phpstorm/buy/#personal
 2. On the Pricing page, select “For Individual Use”, then select either “Yearly billing” or “Monthly billing”. It is recommended that you select “Yearly billing,” as this is the most cost-effective choice.
 3. On the eStore Identification page, enter the email address to attach licenses. This will also be the email address used to authenticate your license within the application. Use an email address you have access to and access often.
+
+[Top](#contents)
 
 
 ## Installing PhpStorm
@@ -100,6 +110,8 @@ https://www.jetbrains.com/phpstorm/download/#section=windows
 5. Open PhpStorm and navigate to File -> Settings.
 6. Select “Appearance & Behavior”, then select “New UI,” and uncheck “Enable new UI” if enabled.
 
+[Top](#contents)
+
 
 ## Create PhpStorm Project
 1. Open PhpStorm
@@ -109,6 +121,8 @@ https://www.jetbrains.com/phpstorm/download/#section=windows
 > [!IMPORTANT]
 > It is important to set the file location to C:\repositories, as our development environment requires that location to be set. Ensure that “repositories” is lowercase.
 6. Click “Create”
+
+[Top](#contents)
 
 
 ## Configure PhpStorm VCS
@@ -120,6 +134,8 @@ https://www.jetbrains.com/phpstorm/download/#section=windows
 6. You may close browser/tab when finished.
 7. Click “OK”.
 
+[Top](#contents)
+
 
 ## Pulling PhpStorm Settings from VCS
 1. Open File -> Manage IDE Settings -> Settings Sync…
@@ -128,6 +144,8 @@ https://www.jetbrains.com/phpstorm/download/#section=windows
 4. Click “OK”.
 6. You should see UI refresh. If not, restart PhpStorm. If you do not notice any changes, contact a team member for assistance.
 
+[Top](#contents)
+
 
 ## Installing Docker
 1. Download Docker for Windows from https://www.docker.com/products/docker-desktop/
@@ -135,6 +153,8 @@ https://www.jetbrains.com/phpstorm/download/#section=windows
 3. After installation completes, open Command Prompt (CMD) or PowerShell to verify that Docker and WSL are running:  
 `docker ps`  
 `wsl -l -v`
+
+[Top](#contents)
 
 
 ## Clone Docker Repository
@@ -152,6 +172,8 @@ Command to set: `cd C:\repositories`.
 8. Run command.
 9. Verify that the Docker folder exists in the Project panel.
 
+[Top](#contents)
+
 
 ## Install Docker Development Environment
 1. Open Docker.
@@ -166,6 +188,8 @@ Follow prompt to grant permissions.
 9. After installation is finished, navigate to `C:\repositories` and rename non-Docker repositories to lowercase.  
 Example: `C:\repositories\CEI` should be `C:\repositories\cei`
 10. Run `updateLocalhost.bat`.
+
+[Top](#contents)
 
 
 ## Export Production Databases
@@ -184,6 +208,8 @@ NEVER drop databases or tables for any reason and be cognizant about which table
 8. Click “Export”.
 9. If saving a file, save file to `C:\repositories\Docker\databases`
 
+[Top](#contents)
+
 
 ## Import Databases into Docker
 > [!WARNING]
@@ -192,6 +218,8 @@ NEVER drop databases or tables for any reason and be cognizant about which table
 1. Ensure that SQL files exist in `C:\repositories\Docker\databases` and their file names match their respective repositories. See [Export Production Databases](#export-production-databases) for information on how to export databases.
 2. Run `importDatabases.bat` from `C:\repositories\Docker\scripts`.
 3. Wait for batch script to finish.
+
+[Top](#contents)
 
 
 ## Access PHPMyAdmin from localhost
@@ -202,6 +230,8 @@ NEVER drop databases or tables for any reason and be cognizant about which table
 5. Use PHPMyAdmin as you would on production.
 > [!NOTE]
 > Changes on local host will NOT reflect on production, even after pushing code changes to the server from PhpStorm.
+
+[Top](#contents)
 
 
 ## Configuring PhpStorm Scopes
@@ -217,6 +247,8 @@ Scopes are a valuable tool which allows you to search more efficiently within ou
 8. Copy and paste the desired scope value into the Pattern field.
 9. Click “OK.”
 
+[Top](#contents)
+
 
 ## Using PhpStorm Scopes
 1. Open a Project search dialog box by entering shortcut `Ctrl + Shift + F `.
@@ -225,6 +257,8 @@ Scopes are a valuable tool which allows you to search more efficiently within ou
 4. Type desired search into search input.
 > [!NOTE]
 > Please note that PhpStorm may not default the search to using Scopes. You may need to reselect that option when opening PhpStorm.
+
+[Top](#contents)
 
 
 ## Making File Changes in PhpStorm
@@ -248,6 +282,8 @@ Scopes are a valuable tool which allows you to search more efficiently within ou
      - If the file is still not formatted, try using `Ctrl + Alt + Shift + L`.
      - If the file is still not formatted, proceed with caution as your PhpStorm settings may be functioning as intended. **Do not commit files which have been drastically altered and contact a team member for assistance**.
 
+[Top](#contents)
+
 
 ## Committing and Pushing Files
 1. Locate the Git staging panel in PhpStorm.
@@ -263,6 +299,8 @@ Scopes are a valuable tool which allows you to search more efficiently within ou
 6. Click “Push”.
 7. If “Commit” selected, when you need to push changes to server, select the Push icon in the Git toolbar and follow same instructions for interacting with the Push dialog.
 
+[Top](#contents)
+
 
 ## Correctly Interacting with Git
 > [!IMPORTANT]
@@ -275,6 +313,8 @@ Scopes are a valuable tool which allows you to search more efficiently within ou
 - Do not allow your repo hashes to be out of date or to unexpectedly diverge. This *will* cause hell in the long run.  
 - When in doubt, ask for help. Falling a couple hours behind to get assistance is always a more preferable option than the consequences of committing poor code to production.  
 - Do not make unauthorized settings changes to PhpStorm. Inform your team members of your intent to suggest or implement changes so we may all pull from the settings repo ASAP.  
+
+[Top](#contents)
 
 
 <!--
