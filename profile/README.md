@@ -180,7 +180,7 @@ NEVER drop databases or tables for any reason and be cognizant about which table
 > Only utilize these instructions if you need to fully install or reinstall databases into Docker. This script will remove or overwrite existing databases.
 
 1. Ensure that SQL files exist in `C:\repositories\Docker\databases` and their file names match their respective repositories. See [Export Production Databases](#export-production-databases) for information on how to export databases.
-2. Run importDatabases.bat from `C:\repositories\Docker\scripts`.
+2. Run `importDatabases.bat` from `C:\repositories\Docker\scripts`.
 3. Wait for batch script to finish.
 
 
