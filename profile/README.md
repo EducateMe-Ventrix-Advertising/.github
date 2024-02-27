@@ -9,23 +9,23 @@
 2. [Install Windows Subsystem for Linux (WSL)](#install-windows-subsystem-for-linux-wsl)
 3. [Git Installation](#git-installation)
 4. [Creating SSH Key](#creating-ssh-key)
-5. Purchasing PhpStorm
-6. Installing PhpStorm
-7. Activating PhpStorm
-8. Configure PhpStorm Project
-9. Connecting PhpStorm to VCS
-10. Pulling PhpStorm Settings from VCS 
-11. Installing Docker
-12. Clone Docker Repository
-13. Configure Docker Development Environment
-14. Export Production Databases
-15. Import Databases into Docker
-16. Access PHPMyAdmin from localhost
-17. Configuring PhpStorm Scopes
-18. Using PhpStorm Scopes
-19. Making File Changes in PhpStorm
-20. Committing and Pushing Files
-21. Requirements for interacting with Git
+5. [Purchasing PhpStorm](#purchasing-phpstorm)
+6. [Installing PhpStorm](#installing-phpstorm)
+7. [Activating PhpStorm](#activating-phpstorm)
+8. [Configure PhpStorm Project](#configure-phpstorm)
+9. [Connecting PhpStorm to VCS](#connecting-phpstorm-to-vcs)
+10. [Pulling PhpStorm Settings from VCS](#pulling-phpstorm-settings-from-vcs)
+11. [Installing Docker](#installing-docker)
+12. [Clone Docker Repository](#clone-docker-repository)
+13. [Configure Docker Development Environment](#configure-docker-development-environment)
+14. [Export Production Databases](#export-production-databases)
+15. [Import Databases into Docker](#import-databases-into-docker)
+16. [Access PHPMyAdmin from localhost](#access-phpmyadmin-from-localhost)
+17. [Configuring PhpStorm Scopes](#configuring-phpstorm-scopes)
+18. [Using PhpStorm Scopes](#using-phpstorm-scopes)
+19. [Making File Changes in PhpStorm](#making-file-changes-in-phpstorm)
+20. [Committing and Pushing Files](#committing-and-pushing-files)
+21. [Correctly Interacting with Git](#correctly-interacting-with-git)
 
 
 # THESE DOCS ARE NOT COMPLETE YET I AM MOVING THEM OVER FROM WORD
@@ -209,7 +209,7 @@ Scopes are a valuable tool which allows you to search more efficiently within ou
 
 
 ## Using PhpStorm Scopes
-1. Open a Project search dialog box by entering shortcut Ctrl+Shift+F.
+1. Open a Project search dialog box by entering shortcut `Ctrl + Shift + F `.
 2. Select “Scope” from the search options.
 3. Select desired scope from the scopes drop-down menu.
 4. Type desired search into search input.
@@ -237,6 +237,35 @@ Scopes are a valuable tool which allows you to search more efficiently within ou
      - If the file is not formatted after using Ctrl+S, try `Ctrl + Alt + L`.
      - If the file is still not formatted, try using `Ctrl + Alt + Shift + L`.
      - If the file is still not formatted, proceed with caution as your PhpStorm settings may be functioning as intended. **Do not commit files which have been drastically altered and contact a team member for assistance**.
+
+
+## Committing and Pushing Files
+1. Locate the Git staging panel in PhpStorm.
+2. Select the files you wish to commit and enter a commit message.
+3. Double click the selected files to review changes.
+     - Confirm that the existing changes are ones you intended to make and there are no issues like syntax errors, typos, etc.
+     - Remove unnecessary changes if any exist.
+     - Close comparison popup when finished.
+4. Click either “Commit” or “Commit and Push…”.
+     - “Commit” will save changes to the local repository.
+     - “Commit and Push…” saves changes to the local and remote repositories.
+5. If “Commit and Push…” selected, select the files you wish to push to server in the Push dialog popup.
+6. Click “Push”.
+7. If “Commit” selected, when you need to push changes to server, select the Push icon in the Git toolbar and follow same instructions for interacting with the Push dialog.
+
+
+## Correctly Interacting with Git
+> [!IMPORTANT]
+> We all develop in the same environment. It is critical that we all operate in a predictable manner.
+
+- Take extra care when committing files to the server. Make sure that the changes you are committing are changes you intended to make.  
+- Do not commit files with broken formatting.  
+- Do NOT commit files to master, unless it is an emergency.  
+- If working in someone else’s branch, make sure they are informed of what changes you intend to make.  
+- Do not allow your repo hashes to be out of date or to unexpectedly diverge. This *will* cause hell in the long run.  
+- When in doubt, ask for help. Falling a couple hours behind to get assistance is always a more preferable option than the consequences of committing poor code to production.  
+- Do not make unauthorized settings changes to PhpStorm. Inform your team members of your intent to suggest or implement changes so we may all pull from the settings repo ASAP.  
+
 
 <!--
 
