@@ -45,7 +45,7 @@ Virtualization in BIOS needs to be enabled for our development environment to fu
   
 [^1]: [Enable Virtualization on Windows 11 PCs](https://support.microsoft.com/en-us/windows/enable-virtualization-on-windows-11-pcs-c5578302-6e43-4b4b-a449-8ced115f58e1)
 
-<sub>[\[Top\]](#contents)</sub>
+<sub>\[[Top]\](#contents)</sub>
 
 
 ## Install Windows Subsystem for Linux (WSL)
