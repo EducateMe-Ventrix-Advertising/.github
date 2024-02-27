@@ -33,7 +33,17 @@
 ## Enable Virtualization in BIOS
 Virtualization in BIOS needs to be enabled for our development environment to function. This is a key step as you will not be able to run local version of our websites without it. There are too many motherboards and BIOS configurations for us to cover in this documentation, so we can only provide you with one step:
 
-1. Refer to your motherboard’s documentation to enable virtualization.
+1. Refer to your motherboard’s documentation to enable virtualization.[^1]
+     - **Acer**  : [How to Enable Virtualization Technology on Acer Products](https://community.acer.com/kb/articles/14750)
+     - **ASUS**  :  
+          - **AMD**    : [\[Notebook\] How to enable or disable AMD Virtualization (AMD-V™) technology?](https://www.asus.com/support/FAQ/1043992)
+          - **Intel**  : [\[Motherboard\] How to enable Intel(VMX) Virtualization Technology in the BIOS?](https://www.asus.com/support/FAQ/1043786)
+                         [\[Notebook\] How to enable or disable Intel® Virtualization Technology (VT-x)?](https://www.asus.com/support/FAQ/1043181)
+     - **Dell**  : [How To Enable or Disable Hardware Virtualization on Dell Systems | Dell US](https://www.dell.com/support/kbdoc/000195978/)
+     - **HP**    : [HP PCs - Enable Virtualization Technology in the BIOS](https://support.hp.com/us-en/document/ish_5637142-5637191-16)
+     - **Lenovo**: [How to enable Virtualization Technology on Lenovo PC computers - Lenovo Support US](https://support.lenovo.com/solutions/ht500006)
+  
+[^1]: [Enable Virtualization on Windows 11 PCs](https://support.microsoft.com/en-us/windows/enable-virtualization-on-windows-11-pcs-c5578302-6e43-4b4b-a449-8ced115f58e1)
 
 
 ## Install Windows Subsystem for Linux (WSL)
