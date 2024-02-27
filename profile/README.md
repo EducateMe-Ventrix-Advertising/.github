@@ -38,7 +38,7 @@ Virtualization in BIOS needs to be enabled for our development environment to fu
      - **ASUS**  :  
           - **AMD**    : [\[Notebook\] How to enable or disable AMD Virtualization (AMD-V™) technology?](https://www.asus.com/support/FAQ/1043992)
           - **Intel**  : [\[Motherboard\] How to enable Intel(VMX) Virtualization Technology in the BIOS?](https://www.asus.com/support/FAQ/1043786)  
-                         [\[Notebook\] How to enable or disable Intel® Virtualization Technology (VT-x)?](https://www.asus.com/support/FAQ/1043181)
+                                   [\[Notebook\] How to enable or disable Intel® Virtualization Technology (VT-x)?](https://www.asus.com/support/FAQ/1043181)
      - **Dell**  : [How To Enable or Disable Hardware Virtualization on Dell Systems | Dell US](https://www.dell.com/support/kbdoc/000195978/)
      - **HP**    : [HP PCs - Enable Virtualization Technology in the BIOS](https://support.hp.com/us-en/document/ish_5637142-5637191-16)
      - **Lenovo**: [How to enable Virtualization Technology on Lenovo PC computers - Lenovo Support US](https://support.lenovo.com/solutions/ht500006)
