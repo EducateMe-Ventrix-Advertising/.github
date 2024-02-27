@@ -160,7 +160,7 @@ Example: `C:\repositories\CEI` should be `C:\repositories\cei`
 
 ## Export Production Databases
 > [!CAUTION]
-> **It is EXTREMELY important that you take extra precautions when interacting with and downloading databases from production. ALWAYS create a backup whenever you are performing ANY operation within the database.  
+> **It is EXTREMELY important that you take extra precautions when interacting with and downloading databases from production. ALWAYS create a backup whenever you are performing ANY operation within the database.   
 NEVER drop databases or tables for any reason and be cognizant about which tables you export, as some of them are extremely large.**
 
 1. If you do not have permissions to access PHPMyAdmin, contact a team member for assistance. Otherwise continue.
