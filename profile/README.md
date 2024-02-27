@@ -56,7 +56,7 @@ https://www.microsoft.com/store/productId/9PN20MSR04DW?ocid=pdpshare
 4. Restart computer.
 5. Ensure that WSL is running by opening up command prompt and entering command: `wsl -l -v`
 
-[Top](#contents)
+<sub>\[[Top](#contents)\]</sub>
 
 
 ## GIT Installation
@@ -66,7 +66,7 @@ https://www.microsoft.com/store/productId/9PN20MSR04DW?ocid=pdpshare
 5. Upon completion of installation, open Command Line or PowerShell.
 6. Enter command `git version` to verify that GIT installed correctly.
 
-[Top](#contents)
+<sub>\[[Top](#contents)\]</sub>
 
 
 ## Creating SSH Key
@@ -88,7 +88,7 @@ https://www.microsoft.com/store/productId/9PN20MSR04DW?ocid=pdpshare
 13. Paste the contents of `id_rsa.pub` into the Key field.
 14. Click “Add SSH key”.
 
-[Top](#contents)
+<sub>\[[Top](#contents)\]</sub>
 
 
 ## Purchasing PhpStorm
@@ -98,7 +98,7 @@ https://www.microsoft.com/store/productId/9PN20MSR04DW?ocid=pdpshare
 2. On the Pricing page, select “For Individual Use”, then select either “Yearly billing” or “Monthly billing”. It is recommended that you select “Yearly billing,” as this is the most cost-effective choice.
 3. On the eStore Identification page, enter the email address to attach licenses. This will also be the email address used to authenticate your license within the application. Use an email address you have access to and access often.
 
-[Top](#contents)
+<sub>\[[Top](#contents)\]</sub>
 
 
 ## Installing PhpStorm
@@ -110,7 +110,7 @@ https://www.jetbrains.com/phpstorm/download/#section=windows
 5. Open PhpStorm and navigate to File -> Settings.
 6. Select “Appearance & Behavior”, then select “New UI,” and uncheck “Enable new UI” if enabled.
 
-[Top](#contents)
+<sub>\[[Top](#contents)\]</sub>
 
 
 ## Create PhpStorm Project
@@ -122,7 +122,7 @@ https://www.jetbrains.com/phpstorm/download/#section=windows
 > It is important to set the file location to C:\repositories, as our development environment requires that location to be set. Ensure that “repositories” is lowercase.
 6. Click “Create”
 
-[Top](#contents)
+<sub>\[[Top](#contents)\]</sub>
 
 
 ## Configure PhpStorm VCS
@@ -134,7 +134,7 @@ https://www.jetbrains.com/phpstorm/download/#section=windows
 6. You may close browser/tab when finished.
 7. Click “OK”.
 
-[Top](#contents)
+<sub>\[[Top](#contents)\]</sub>
 
 
 ## Pulling PhpStorm Settings from VCS
@@ -144,7 +144,7 @@ https://www.jetbrains.com/phpstorm/download/#section=windows
 4. Click “OK”.
 6. You should see UI refresh. If not, restart PhpStorm. If you do not notice any changes, contact a team member for assistance.
 
-[Top](#contents)
+<sub>\[[Top](#contents)\]</sub>
 
 
 ## Installing Docker
@@ -154,7 +154,7 @@ https://www.jetbrains.com/phpstorm/download/#section=windows
 `docker ps`  
 `wsl -l -v`
 
-[Top](#contents)
+<sub>\[[Top](#contents)\]</sub>
 
 
 ## Clone Docker Repository
@@ -172,7 +172,7 @@ Command to set: `cd C:\repositories`.
 8. Run command.
 9. Verify that the Docker folder exists in the Project panel.
 
-[Top](#contents)
+<sub>\[[Top](#contents)\]</sub>
 
 
 ## Install Docker Development Environment
@@ -189,7 +189,7 @@ Follow prompt to grant permissions.
 Example: `C:\repositories\CEI` should be `C:\repositories\cei`
 10. Run `updateLocalhost.bat`.
 
-[Top](#contents)
+<sub>\[[Top](#contents)\]</sub>
 
 
 ## Export Production Databases
@@ -208,7 +208,7 @@ NEVER drop databases or tables for any reason and be cognizant about which table
 8. Click “Export”.
 9. If saving a file, save file to `C:\repositories\Docker\databases`
 
-[Top](#contents)
+<sub>\[[Top](#contents)\]</sub>
 
 
 ## Import Databases into Docker
@@ -219,7 +219,7 @@ NEVER drop databases or tables for any reason and be cognizant about which table
 2. Run `importDatabases.bat` from `C:\repositories\Docker\scripts`.
 3. Wait for batch script to finish.
 
-[Top](#contents)
+<sub>\[[Top](#contents)\]</sub>
 
 
 ## Access PHPMyAdmin from localhost
@@ -231,7 +231,7 @@ NEVER drop databases or tables for any reason and be cognizant about which table
 > [!NOTE]
 > Changes on local host will NOT reflect on production, even after pushing code changes to the server from PhpStorm.
 
-[Top](#contents)
+<sub>\[[Top](#contents)\]</sub>
 
 
 ## Configuring PhpStorm Scopes
@@ -247,7 +247,7 @@ Scopes are a valuable tool which allows you to search more efficiently within ou
 8. Copy and paste the desired scope value into the Pattern field.
 9. Click “OK.”
 
-[Top](#contents)
+<sub>\[[Top](#contents)\]</sub>
 
 
 ## Using PhpStorm Scopes
@@ -258,7 +258,7 @@ Scopes are a valuable tool which allows you to search more efficiently within ou
 > [!NOTE]
 > Please note that PhpStorm may not default the search to using Scopes. You may need to reselect that option when opening PhpStorm.
 
-[Top](#contents)
+<sub>\[[Top](#contents)\]</sub>
 
 
 ## Making File Changes in PhpStorm
@@ -282,7 +282,7 @@ Scopes are a valuable tool which allows you to search more efficiently within ou
      - If the file is still not formatted, try using `Ctrl + Alt + Shift + L`.
      - If the file is still not formatted, proceed with caution as your PhpStorm settings may be functioning as intended. **Do not commit files which have been drastically altered and contact a team member for assistance**.
 
-[Top](#contents)
+<sub>\[[Top](#contents)\]</sub>
 
 
 ## Committing and Pushing Files
@@ -299,7 +299,7 @@ Scopes are a valuable tool which allows you to search more efficiently within ou
 6. Click “Push”.
 7. If “Commit” selected, when you need to push changes to server, select the Push icon in the Git toolbar and follow same instructions for interacting with the Push dialog.
 
-[Top](#contents)
+<sub>\[[Top](#contents)\]</sub>
 
 
 ## Correctly Interacting with Git
@@ -314,7 +314,7 @@ Scopes are a valuable tool which allows you to search more efficiently within ou
 - When in doubt, ask for help. Falling a couple hours behind to get assistance is always a more preferable option than the consequences of committing poor code to production.  
 - Do not make unauthorized settings changes to PhpStorm. Inform your team members of your intent to suggest or implement changes so we may all pull from the settings repo ASAP.  
 
-[Top](#contents)
+<sub>\[[Top](#contents)\]</sub>
 
 
 <!--
