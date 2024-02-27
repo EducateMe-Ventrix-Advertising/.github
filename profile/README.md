@@ -27,7 +27,8 @@
 21. [Correctly Interacting with Git](#correctly-interacting-with-git)
 
 
-# THESE DOCS ARE NOT COMPLETE YET I AM MOVING THEM OVER FROM WORD
+> [!IMPORTANT]
+> DOCS ARE COMPLETE BUT MISSING PRETTY PHOTOS
 
 ## Enable Virtualization in BIOS
 Virtualization in BIOS needs to be enabled for our development environment to function. This is a key step as you will not be able to run local version of our websites without it. There are too many motherboards and BIOS configurations for us to cover in this documentation, so we can only provide you with one step:
