@@ -224,9 +224,9 @@ Scopes are a valuable tool which allows you to search more efficiently within ou
 1. Open PhpStorm.
 2. Pull changes. Always pull changes before making edits to files.
 3. Ensure that the correct branch is selected.
-  - Select the Git Branch popup on the far bottom right of PhpStorm.
-  - Select the desired repository.
-  - Check out a new branch or select an existing branch from the remote dropdown menu.
+     - Select the Git Branch popup on the far bottom right of PhpStorm.
+     - Select the desired repository.
+     - Check out a new branch or select an existing branch from the remote dropdown menu.
 4. Expand the desired repository from the Project panel.
 5. Locate and double click the file you wish to edit.
 6. Ensure that line endings are set to LF.
@@ -234,9 +234,9 @@ Scopes are a valuable tool which allows you to search more efficiently within ou
 > You may locate the line ending settings on the bottom right of the PhpStorm window.
 8. Make desired changes to file.
 9. Ensure that file formatting is run by using Ctrl+S.
-  - If the file is not formatted after using Ctrl+S, try `Ctrl + Alt + L`.
-  - If the file is still not formatted, try using `Ctrl + Alt + Shift + L`.
-  - If the file is still not formatted, proceed with caution as your PhpStorm settings may be functioning as intended. **Do not commit files which have been drastically altered and contact a team member for assistance**.
+     - If the file is not formatted after using Ctrl+S, try `Ctrl + Alt + L`.
+     - If the file is still not formatted, try using `Ctrl + Alt + Shift + L`.
+     - If the file is still not formatted, proceed with caution as your PhpStorm settings may be functioning as intended. **Do not commit files which have been drastically altered and contact a team member for assistance**.
 
 <!--
 
