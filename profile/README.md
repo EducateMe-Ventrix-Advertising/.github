@@ -296,7 +296,7 @@ Scopes are a valuable tool which allows you to search more efficiently within ou
 
 ## Making File Changes in PhpStorm
 > [!IMPORTANT]
-> All code should be committed to a branch and code reviewed before being merged into Master, except in the case of emergencies. See [Creating and Checking Out Git Branches in PhpStorm](#creating-and-checking-out-branches-in-phpstorm).
+> All code should be committed to a branch and code reviewed before being merged into Master, except in the case of emergencies. See [Creating and Checking Out Git Branches in PhpStorm](#creating-and-checking-out-git-branches-in-phpstorm).
 
 1. Open PhpStorm.
 2. Pull changes. Always pull changes before making edits to files.  
