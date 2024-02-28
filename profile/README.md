@@ -22,9 +22,10 @@
 16. [Access PHPMyAdmin from localhost](#access-phpmyadmin-from-localhost)
 17. [Configuring PhpStorm Scopes](#configuring-phpstorm-scopes)
 18. [Using PhpStorm Scopes](#using-phpstorm-scopes)
-19. [Making File Changes in PhpStorm](#making-file-changes-in-phpstorm)
-20. [Committing and Pushing Files](#committing-and-pushing-files)
-21. [Correctly Interacting with Git](#correctly-interacting-with-git)
+19. [Creating and Checking Out Git Branches in PhpStorm](#creating-and-checking-out-git-branches-in-phpstorm)
+20. [Making File Changes in PhpStorm](#making-file-changes-in-phpstorm)
+21. [Committing and Pushing Files](#committing-and-pushing-files)
+22. [Correctly Interacting with Git](#correctly-interacting-with-git)
 
 
 > [!IMPORTANT]
@@ -276,7 +277,7 @@ Scopes are a valuable tool which allows you to search more efficiently within ou
 2. Hover over desired repository.
 3. While hovered, proceed to either branch create or checkout below...
 
-***...Creating a branch
+*** Creating a branch
 1. Click "New Branch" and locate "Create New Branch" popup panel.
 2. Type name for branch.
 3. Check "Checkout branch" to true.
@@ -284,7 +285,7 @@ Scopes are a valuable tool which allows you to search more efficiently within ou
 ![Screenshot of Create new Branch panel](/profile/phpStorm_gitBranch002.png)
 
 
-***...Checking out a branch
+*** Checking out a branch
 > [!WARNING]
 >  Unless branch has not been pushed/initializedlways, **always** checkout remote branches to avoid the risk of diverging files.
 1. Select "Remote" from the list of expandable menus.
