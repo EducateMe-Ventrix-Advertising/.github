@@ -235,6 +235,21 @@ NEVER drop databases or tables for any reason and be cognizant about which table
 <sub>\[[Top](#contents)\]</sub>
 
 
+## Collect Missing Files
+> [!WARNING]
+> Local websites will not function without missing files. These are in each repository's `.gitignore` file to protect sensitive website data from being exposed. Local websites will not function without these files.
+
+1. Contact a team member to receive `/db/dh.php` files.
+2. When receiving the files, right click on the desired repository in the project panel.
+3. Hover over "New", then select "Directory."
+4. Name directory "db" (all lowercase).
+5. Select the newly created `db` directory.
+6. Paste the `db.php` file.
+7. Repeat for other repositories asneeded.
+> [!CAUTION]
+> If prompted to commit or push these files, **DO NOT** commit or push these files to any branch. Doing so risks exposing sensitive site data. Contact a team member for assistance.
+
+
 ## Configuring PhpStorm Scopes
 Scopes are a valuable tool which allows you to search more efficiently within our repositories. They are typically the preferred option when searching within the entire project.
 
