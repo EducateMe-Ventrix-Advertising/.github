@@ -188,7 +188,7 @@ Follow prompt to grant permissions.
 8. Wait for installation to finish. The last step, `composer install`, will take a long time to run.
 9. After installation is finished, navigate to `C:\repositories` and rename non-Docker repositories to lowercase.  
 Example: `C:\repositories\CEI` should be `C:\repositories\cei`
-10. Run `updateLocalhost.bat`.
+10. Run `C:\repositories\Docker\scripts\updateLocalhost.bat`.
 
 <sub>\[[Top](#contents)\]</sub>
 
