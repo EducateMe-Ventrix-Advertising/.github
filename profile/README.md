@@ -280,7 +280,7 @@ Scopes are a valuable tool which allows you to search more efficiently within ou
      - Select the desired repository.
      - Check out a new branch or select an existing branch from the remote dropdown menu.  
 > [!CAUTION]
-> Do **NOT** make changes on the master branch unless it is an emergency.
+> Do **NOT** make changes on the ***master*** branch unless it is an emergency.
 4. Expand the desired repository from the Project panel.
 5. Locate and double click the file you wish to edit.
 6. Ensure that line endings are set to LF.  
