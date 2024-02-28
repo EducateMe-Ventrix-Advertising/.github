@@ -201,11 +201,13 @@ NEVER drop databases or tables for any reason and be cognizant about which table
 2. Log in to PHPMyAdmin on production. This assumes you already have the link.
 3. Select the database you wish to export.
 5. Click “Export”
-5. Under Export Method, select the “Custom” option.
+5. Under Export Method, select the “Custom” option.  
 ![Screenshot of PHPMyAdmin Settings](/profile/phpmyadmin_001.png)
-6. Find the Request and Error tables in the Tables list and uncheck the right-most checkbox. We will export these tables with Structure only. Do this for all databases.
+6. Find the Request and Error tables in the Tables list and uncheck the right-most checkbox. We will export these tables with Structure only. Do this for all databases.  
+![Screenshot of PHPMyAdmin Settings](/profile/phpmyadmin_002.png)
 7. Scroll down to Object creation options and toggle:  
-`Add DROP TABLE / VIEW / PROCEDURE / FUNCTION / EVENT / TRIGGER statement`
+`Add DROP TABLE / VIEW / PROCEDURE / FUNCTION / EVENT / TRIGGER statement`  
+![Screenshot of PHPMyAdmin Settings](/profile/phpmyadmin_003.png)
 8. Click “Export”.
 9. If saving a file, save file to `C:\repositories\Docker\databases`
 
