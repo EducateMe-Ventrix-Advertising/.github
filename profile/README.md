@@ -27,10 +27,6 @@
 21. [Committing and Pushing Files](#committing-and-pushing-files)
 22. [Correctly Interacting with Git](#correctly-interacting-with-git)
 
- 
-> [!IMPORTANT]
-> DOCS ARE COMPLETE BUT MISSING PRETTY PHOTOS
-
 ## Enable Virtualization in BIOS
 Virtualization in BIOS needs to be enabled for our development environment to function. This is a key step as you will not be able to run local version of our websites without it. There are too many motherboards and BIOS configurations for us to cover in this documentation, so we can only provide you with one step:
 
