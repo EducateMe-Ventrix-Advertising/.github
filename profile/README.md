@@ -129,7 +129,8 @@ https://www.jetbrains.com/phpstorm/download/#section=windows
 1. Open PhpStorm settings.
 2. Select Version Control.
 3. Select “GitHub”.
-4. Click the “+” icon and select “Login via Github”.
+4. Click the “+” icon and select “Login via Github”.  
+![Screenshot of PHPMyAdmin Settings](/profile/phpStorm_vcs.png)
 5. Follow prompts in web browser to log into GitHub and authorize JetBrains.
 6. You may close browser/tab when finished.
 7. Click “OK”.
@@ -243,8 +244,9 @@ Scopes are a valuable tool which allows you to search more efficiently within ou
 1. Contact a team member to get the most up to date scopes.
 2. Open PhpStorm settings.
 3. Navigate to Appearance & Behavior -> Scopes.
-4. In the left panel, select the “**+**” icon to create a new scope.
-5. Select “Local”.
+4. In the left panel, select the “**+**” icon to create a new scope.  
+5. Select “Local”.  
+![Screenshot of PHPMyAdmin Settings](/profile/phpStorm_scopes.png)
 6. Name the scope.
 7. Select the scope from the scopes list.
 8. Copy and paste the desired scope value into the Pattern field.
@@ -256,7 +258,8 @@ Scopes are a valuable tool which allows you to search more efficiently within ou
 ## Using PhpStorm Scopes
 1. Open a Project search dialog box by entering shortcut `Ctrl + Shift + F `.
 2. Select “Scope” from the search options.
-3. Select desired scope from the scopes drop-down menu.
+3. Select desired scope from the scopes drop-down menu.  
+![Screenshot of PHPMyAdmin Settings](/profile/phpStorm_scopes002.png)
 4. Type desired search into search input.
 > [!NOTE]
 > Please note that PhpStorm may not default the search to using Scopes. You may need to reselect that option when opening PhpStorm.
@@ -269,14 +272,17 @@ Scopes are a valuable tool which allows you to search more efficiently within ou
 > All code should be committed to a branch and code reviewed before being merged into Master, except in the case of emergencies.
 
 1. Open PhpStorm.
-2. Pull changes. Always pull changes before making edits to files.
+2. Pull changes. Always pull changes before making edits to files.  
+![Screenshot of PHPMyAdmin Settings](/profile/phpStorm_pullChanges.png)
 3. Ensure that the correct branch is selected.
-     - Select the Git Branch popup on the far bottom right of PhpStorm.
+     - Select the Git Branch popup on the far bottom right of PhpStorm.  
+![Screenshot of PHPMyAdmin Settings](/profile/phpStorm_gitBranches.png)
      - Select the desired repository.
      - Check out a new branch or select an existing branch from the remote dropdown menu.
 4. Expand the desired repository from the Project panel.
 5. Locate and double click the file you wish to edit.
-6. Ensure that line endings are set to LF.
+6. Ensure that line endings are set to LF.  
+![Screenshot of PHPMyAdmin Settings](/profile/phpStorm_lineEndings.png)
 > [!TIP]
 > You may locate the line ending settings on the bottom right of the PhpStorm window.
 8. Make desired changes to file.
