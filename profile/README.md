@@ -250,6 +250,8 @@ NEVER drop databases or tables for any reason and be cognizant about which table
 > [!CAUTION]
 > If prompted to commit or push these files, **DO NOT** commit or push these files to any branch. Doing so risks exposing sensitive site data. Contact a team member for assistance.
 
+<sub>\[[Top](#contents)\]</sub>
+
 
 ## Configuring PhpStorm Scopes
 Scopes are a valuable tool which allows you to search more efficiently within our repositories. They are typically the preferred option when searching within the entire project.
@@ -304,6 +306,8 @@ Scopes are a valuable tool which allows you to search more efficiently within ou
 2. Select the branch you wish to checkout.
 3. Click "Checkout" on the resulting submenu.  
 ![Screenshot of Create new Branch panel](/profile/phpStorm_gitBranchRemote.png)
+
+<sub>\[[Top](#contents)\]</sub>
 
 
 ## Making File Changes in PhpStorm
