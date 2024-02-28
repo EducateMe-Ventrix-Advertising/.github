@@ -267,9 +267,35 @@ Scopes are a valuable tool which allows you to search more efficiently within ou
 <sub>\[[Top](#contents)\]</sub>
 
 
+## Creating and Checking Out Git Branches in PhpStorm
+> [!CAUTION]
+> It is important that developers work in a branch and do not commit or push directly to `master`, as this avoids merge conflicts and branch divergence.
+
+1. Locate and click the Git branches panel.  
+![Screenshot of Git Branches panel](/profile/phpStorm_gitBranchLocation.png)
+2. Hover over desired repository.
+3. While hovered, proceed to either branch create or checkout below...
+
+***...Creating a branch
+1. Click "New Branch" and locate "Create New Branch" popup panel.
+2. Type name for branch.
+3. Check "Checkout branch" to true.
+4. Click "Create"  
+![Screenshot of Create new Branch panel](/profile/phpStorm_gitBranch002.png)
+
+
+***...Checking out a branch
+> [!WARNING]
+>  Unless branch has not been pushed/initializedlways, **always** checkout remote branches to avoid the risk of diverging files.
+1. Select "Remote" from the list of expandable menus.
+2. Select the branch you wish to checkout.
+3. Click "Checkout" on the resulting submenu.  
+![Screenshot of Create new Branch panel](/profile/phpStorm_gitBranchRemote.png)
+
+
 ## Making File Changes in PhpStorm
 > [!IMPORTANT]
-> All code should be committed to a branch and code reviewed before being merged into Master, except in the case of emergencies.
+> All code should be committed to a branch and code reviewed before being merged into Master, except in the case of emergencies. See [Creating and Checking Out Git Branches in PhpStorm](#creating-and-checking-out-branches-in-phpstorm).
 
 1. Open PhpStorm.
 2. Pull changes. Always pull changes before making edits to files.  
