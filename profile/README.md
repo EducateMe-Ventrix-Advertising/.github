@@ -20,12 +20,13 @@
 14. [Export Production Databases](#export-production-databases)
 15. [Import Databases into Docker](#import-databases-into-docker)
 16. [Access PHPMyAdmin from localhost](#access-phpmyadmin-from-localhost)
-17. [Configuring PhpStorm Scopes](#configuring-phpstorm-scopes)
-18. [Using PhpStorm Scopes](#using-phpstorm-scopes)
-19. [Creating and Checking Out Git Branches in PhpStorm](#creating-and-checking-out-git-branches-in-phpstorm)
-20. [Making File Changes in PhpStorm](#making-file-changes-in-phpstorm)
-21. [Committing and Pushing Files](#committing-and-pushing-files)
-22. [Correctly Interacting with Git](#correctly-interacting-with-git)
+17. [Collect Missing DB Files](#collect-missing-db-files)
+18. [Configuring PhpStorm Scopes](#configuring-phpstorm-scopes)
+19. [Using PhpStorm Scopes](#using-phpstorm-scopes)
+20. [Creating and Checking Out Git Branches in PhpStorm](#creating-and-checking-out-git-branches-in-phpstorm)
+21. [Making File Changes in PhpStorm](#making-file-changes-in-phpstorm)
+22. [Committing and Pushing Files](#committing-and-pushing-files)
+23. [Correctly Interacting with Git](#correctly-interacting-with-git)
 
 ## Enable Virtualization in BIOS
 Virtualization in BIOS needs to be enabled for our development environment to function. This is a key step as you will not be able to run local version of our websites without it. There are too many motherboards and BIOS configurations for us to cover in this documentation, so we can only provide you with one step:
@@ -235,7 +236,7 @@ NEVER drop databases or tables for any reason and be cognizant about which table
 <sub>\[[Top](#contents)\]</sub>
 
 
-## Collect Missing Files
+## Collect Missing DB Files
 > [!WARNING]
 > Local websites will not function without missing files. These are in each repository's `.gitignore` file to protect sensitive website data from being exposed. Local websites will not function without these files.
 
