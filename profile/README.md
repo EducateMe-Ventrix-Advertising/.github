@@ -78,14 +78,14 @@ https://www.microsoft.com/store/productId/9PN20MSR04DW?ocid=pdpshare
 3. When prompted to “Enter a file in which to save the key”, press Enter to accept the default file location.
 4. Enter a passphrase to bind to the SSH key. An empty passphrase is permissible but not recommended.
 5. On your Windows machine, navigate to `C:\Users\<<YOU>>\.ssh`
-6. Open the contents of `id_rsa.pub` into Notepad or Notepad++
-7. Copy the contents of `id_rsa.pub` to your clipboard.
+6. Open the contents of `id_ed25519.pub` into Notepad or Notepad++
+7. Copy the contents of `id_ed25519.pub` to your clipboard.
 8. Log into your https://github.com/ account.
 9. Click user portrait and select “Settings” or navigate to https://github.com/settings/profile.
 10. Click “SSH and GPG keys”.
 11. Click “New SSH key”.
 12. Give the SSH key a title. Any title is fine, as SSH keys are NOT repository specific.
-13. Paste the contents of `id_rsa.pub` into the Key field.
+13. Paste the contents of `id_ed25519.pub` into the Key field.
 14. Click “Add SSH key”.
 
 <sub>\[[Top](#contents)\]</sub>
