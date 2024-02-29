@@ -51,14 +51,17 @@ Virtualization in BIOS needs to be enabled for our development environment to fu
     ```PS
     dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
     ```
+    
 2. Also enable a WSL2 pre-requisite by opening PowerShell as Administrator (Start menu > PowerShell > right-click > Run as Administrator) and running the following command:
     ```PS
     dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
     ```
+    
 3. Finally, ensure WSL2 is used by opening PowerShell as Administrator (Start menu > PowerShell > right-click > Run as Administrator) and running the following command:
     ```PS
     wsl --set-default-version 2
     ```
+    
 4. Now you need to install a distro for WSL2 Open the Windows Store app from the Windows Start menu.
 5. Search for “Ubuntu WSL” by Canonical Group Limited:
 https://www.microsoft.com/store/productId/9PN20MSR04DW?ocid=pdpshare
