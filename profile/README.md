@@ -6,7 +6,7 @@
 
 ### Contents
 1. [Enable Virtualization in BIOS](#enable-virtualization-in-bios)
-2. [Install Windows Subsystem for Linux (WSL)](#install-windows-subsystem-for-linux-wsl)
+2. [Install Windows Subsystem for Linux (WSL)](#install-windows-subsystem-for-linux-wsl22)
 3. [Git Installation](#git-installation)
 4. [Creating SSH Key](#creating-ssh-key)
 5. [Purchasing PhpStorm](#purchasing-phpstorm)
