@@ -46,13 +46,30 @@ Virtualization in BIOS needs to be enabled for our development environment to fu
 <sub>\[[Top](#contents)\]</sub>
 
 
-## Install Windows Subsystem for Linux (WSL)
-1. Open the Windows Store app from the Windows Start menu.
-2. Search for “Ubuntu WSL” by Canonical Group Limited:
+## Install Windows Subsystem for Linux (WSL2)[^2]
+1.First ensure WSL is enabled on your Windows installation. You can do so by opening PowerShell as Administrator (Start menu > PowerShell > right-click > Run as Administrator) and running the following command:
+    ```PS
+    dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+    ```
+2. Also enable a WSL2 pre-requisite by opening PowerShell as Administrator (Start menu > PowerShell > right-click > Run as Administrator) and running the following command:
+    ```PS
+    dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+    ```
+3. Finally, ensure WSL2 is used by opening PowerShell as Administrator (Start menu > PowerShell > right-click > Run as Administrator) and running the following command:
+    ```PS
+    wsl --set-default-version 2
+    ```
+4. Now you need to install a distro for WSL2 Open the Windows Store app from the Windows Start menu.
+5. Search for “Ubuntu WSL” by Canonical Group Limited:
 https://www.microsoft.com/store/productId/9PN20MSR04DW?ocid=pdpshare
-3. Click “Install” and follow prompts.
-4. Restart computer.
-5. Ensure that WSL is running by opening up command prompt and entering command: `wsl -l -v`
+6. Click “Install” and follow prompts.
+7. Restart computer.
+8. Ensure that WSL is running by opening up command prompt and entering command: `wsl -l -v`, it should show at least one entry in the table, and it should have `2` as the version, something like:
+    ```txt
+    NAME                   STATE           VERSION
+    * Ubuntu               Running         2
+    ```
+[^2]: [Official Microsoft Documentation for installing WSL](https://learn.microsoft.com/en-us/windows/wsl/install) 
 
 <sub>\[[Top](#contents)\]</sub>
 
