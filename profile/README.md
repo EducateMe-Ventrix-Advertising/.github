@@ -261,7 +261,7 @@ NEVER drop databases or tables for any reason and be cognizant about which table
 > [!WARNING]
 > Local websites will not function without missing files. These are in each repository's `.gitignore` file to protect sensitive website data from being exposed. Local websites will not function without these files.
 
-1. Contact a team member to receive `/db/dh.php` files.
+1. Contact a team member to receive `/db/db.php` files.
 2. When receiving the files, right click on the desired repository in the project panel.
 3. Hover over "New", then select "Directory."
 4. Name directory "db" (all lowercase).
@@ -322,7 +322,7 @@ Scopes are a valuable tool which allows you to search more efficiently within ou
 
 ### ...Checking out a branch
 > [!WARNING]
->  Unless branch has not been pushed/initializedlways, **always** checkout remote branches to avoid the risk of diverging files.
+>  Unless branch has not been pushed/initialized, **always** checkout remote branches to avoid the risk of diverging files.
 1. Select "Remote" from the list of expandable menus.
 2. Select the branch you wish to checkout.
 3. Click "Checkout" on the resulting submenu.  
